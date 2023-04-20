@@ -1,0 +1,30 @@
+Тема: 
+	Калькулятор. Библиотеки классов.
+
+Время на выполнение: 
+	3 дня.
+
+Задание:
+	1. Перейти в локальный репозиторий и создать ветку от main с наименованием по шаблону lab7_<номер студенческого билета>.
+	2. Выполнить переименование проекта BUKEP.Student.Calculator в BUKEP.Student.ConsoleCalculator (включая наименовавние каталога, 
+пространство имен, наименование файла проекта и наименования файла решения). Переименование лучше выполнять средствами Visual Studio,
+переименовать каталог проекта можно в проводнике.
+	3. Перейти в каталог студента создать новое пустое решение (solution) с именем BUKEP.Student.
+	4. Добавить в решение ранее созданные проекты BUKEP.Student.ConsoleCalculator и BUKEP.Student.WindowsCalculator.
+	5. Удалить из каталога студента каталог BUKEP.Student.SharpInstructions и файл lab2.txt.
+	6. Создать в решении новый проект типа Class Library с именем BUKEP.Student.Calculator.
+	7. Подключить проект BUKEP.Student.Calculator к проектам BUKEP.Student.ConsoleCalculator и BUKEP.Student.WindowsCalculator как зависимость.
+	8. Провести рефакторинг проектов BUKEP.Student.ConsoleCalculator и BUKEP.Student.WindowsCalculator, вынести класс калькулятора в проект
+BUKEP.Student.ConsoleCalculator класс не должен быть зависимым от типа приложения, в классе должна быть реализована, только логика вычисления.
+	9. Выполнить синхронизацию изменений локального репозитория в удаленный.
+	10. Создать pull request в ветку main.
+	11. По завершению предоставить ссылку на pull request.
+
+Критерии выполнения:
+	Пройти по предоставленной ссылки и провести code review. Проверить работоспособность приложения на нескольких контрольных примерах.
+Проверить поведение приложения при некорректном вводе выражений/операция.
+
+Ссылки для самостоятельного изучения:
+https://metanit.com/sharp/tutorial/3.46.php
+https://learn.microsoft.com/ru-ru/dotnet/core/tutorials/library-with-visual-studio?pivots=dotnet-7-0
+https://web-creator.ru/articles/refactoring

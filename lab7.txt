@@ -6,19 +6,16 @@
 
 Задание:
 	1. Перейти в локальный репозиторий и создать ветку от main с наименованием по шаблону lab7_<номер студенческого билета>.
-	2. Выполнить переименование проекта BUKEP.Student.Calculator в BUKEP.Student.ConsoleCalculator (включая наименовавние каталога, 
-пространство имен, наименование файла проекта и наименования файла решения). Переименование лучше выполнять средствами Visual Studio,
-переименовать каталог проекта можно в проводнике.
-	3. Перейти в каталог студента создать новое пустое решение (solution) с именем BUKEP.Student.
-	4. Добавить в решение ранее созданные проекты BUKEP.Student.ConsoleCalculator и BUKEP.Student.WindowsCalculator.
-	5. Удалить из каталога студента каталог BUKEP.Student.SharpInstructions и файл lab2.txt.
-	6. Создать в решении новый проект типа Class Library с именем BUKEP.Student.Calculator.
-	7. Подключить проект BUKEP.Student.Calculator к проектам BUKEP.Student.ConsoleCalculator и BUKEP.Student.WindowsCalculator как зависимость.
-	8. Провести рефакторинг проектов BUKEP.Student.ConsoleCalculator и BUKEP.Student.WindowsCalculator, вынести класс калькулятора в проект
-BUKEP.Student.ConsoleCalculator класс не должен быть зависимым от типа приложения, в классе должна быть реализована, только логика вычисления.
-	9. Выполнить синхронизацию изменений локального репозитория в удаленный.
-	10. Создать pull request в ветку main.
-	11. По завершению предоставить ссылку на pull request.
+	2. Перейти в каталог студента создать новое пустое решение (solution) с именем BUKEP.Student.
+	3. Добавить в решение ранее созданные проекты BUKEP.Student.ConsoleCalculator и BUKEP.Student.WindowsCalculator.
+	4. Удалить из каталога студента каталог BUKEP.Student.SharpInstructions.
+	5. Создать в решении новый проект типа Class Library с именем BUKEP.Student.Calculator.
+	6. Подключить проект BUKEP.Student.Calculator к проектам BUKEP.Student.ConsoleCalculator и BUKEP.Student.WindowsCalculator как зависимость.
+	7. Провести рефакторинг проектов BUKEP.Student.ConsoleCalculator и BUKEP.Student.WindowsCalculator, вынести класс калькулятора в проект
+BUKEP.Student.Calculator класс не должен быть зависимым от типа приложения, в классе должна быть реализована только логика вычисления.
+	8. Выполнить синхронизацию изменений локального репозитория в удаленный.
+	9. Создать pull request в ветку main.
+	10. По завершению предоставить ссылку на pull request.
 
 Критерии выполнения:
 	Пройти по предоставленной ссылки и провести code review. Проверить работоспособность приложения на нескольких контрольных примерах.

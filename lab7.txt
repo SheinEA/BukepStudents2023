@@ -9,7 +9,7 @@
 	2. Перейти в каталог студента создать новое пустое решение (solution) с именем BUKEP.Student.
 	3. Добавить в решение ранее созданные проекты BUKEP.Student.ConsoleCalculator и BUKEP.Student.WindowsCalculator.
 	4. Удалить из каталога студента каталог BUKEP.Student.SharpInstructions.
-	5. Создать в решении новый проект типа Class Library с именем BUKEP.Student.Calculator.
+	5. Создать в решении новый проект типа Class Library с наименованием BUKEP.Student.Calculator.
 	6. Подключить проект BUKEP.Student.Calculator к проектам BUKEP.Student.ConsoleCalculator и BUKEP.Student.WindowsCalculator как зависимость.
 	7. Провести рефакторинг проектов BUKEP.Student.ConsoleCalculator и BUKEP.Student.WindowsCalculator, вынести класс калькулятора в проект
 BUKEP.Student.Calculator класс не должен быть зависимым от типа приложения, в классе должна быть реализована только логика вычисления.
